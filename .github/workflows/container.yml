@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - packages/container/**
       - .github/workflows/container.yml # 워크플로 수정만 해도 트리거
   workflow_dispatch: # 수동 실행 버튼
 
